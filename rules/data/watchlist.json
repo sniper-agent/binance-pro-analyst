@@ -1,0 +1,4 @@
+{
+  "futures_usdm": ["BTCUSDT", "ETHUSDT", "SOLUSDT", "BNBUSDT", "XRPUSDT", "XAUUSDT"],
+  "min_quote_volume_usdt": 50000000
+}
