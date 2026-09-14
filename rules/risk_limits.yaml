@@ -1,0 +1,23 @@
+market: usdm_futures_only
+min_notional_usd: 5
+leverage_min: 5
+leverage_max: 20
+leverage_default: 5
+equity_usd_estimate: 100
+risk_per_trade_pct: 1.0
+max_loss_per_trade_usd: 1.0
+max_open_positions: 2
+max_positions_per_symbol: 1
+all_in: false
+order_types: [LIMIT]
+confirm_human: true
+min_probability: 75
+crypto:
+  limit_distance_pct: 1.5
+  min_rr: 2.0
+xau:
+  pip_size: 0.10
+  min_limit_distance_pips: 60
+  sl_pips: 250
+  tp_pips: 500
+timeframes: ["1h", "4h"]
